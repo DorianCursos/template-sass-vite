@@ -1,25 +1,7 @@
-@use '../functions/image.scss' as *;
-
 html {
   scroll-behavior: smooth;
 }
 body {
-  // background-image: url('/assets/images/cat.jpeg');
-  background-image: image('cat.jpeg');
-  background-size: cover;
   background-color: #111;
   font-family: sans-serif;
-}
-
-h1{
-  color: red;
-}
-
-h2{
-  color: red;
-}
-
-.example {
-  user-select: none;
-  background: linear-gradient(to bottom, white, black);
 }
